@@ -1,37 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Fontdiner+Swanky&family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
-h4{font-family: "Agu Display", serif;}
-h1{ 
-    background-color: white;
-    padding:30px;
-    margin:30px;
-    border:1px solid black;
-  
-    }
-
-h2,p{margin:25px} 
-img,video{
-    max-width:100%;
-    height:auto;
-}
-
-h4{margin: 0;padding:0;background-color:antiquewhite;}
-
-
-
-.class{width: 25px; height: 25px;}
-
-p{background-color: aquamarine;font-size:larger ;}
-.thankyou,h2{background-color: aliceblue;}
-
-body{background-image: url("images/page2.png");background-size:contain;}
-
-.fuji{ border: 3px solid white;background-color: white; }
-.mangosteen{ border: 3px solid white;background-color: white;}
-.lychee{border: 3px solid white;background-color: white;}
-.rambutan{border: 3px solid white;background-color: white;}
-.kiwano{border: 3px solid white;background-color: white;}
-.fruit{border: 3px solid white;background-color: white;}
-h3,ol{margin-left:600px;}
+h4{font-family: "Agu Display", serif; }
 
 
 nav ul{list-style-type: none;
@@ -49,3 +17,64 @@ nav ul{list-style-type: none;
         
     }
     
+.site-title{color:blueviolet;opacity: 0.5;margin:25px; border:3px solid black;padding-inline: 10px;background-color: white;}
+
+    header h4{
+    margin: 0;
+    background-color:
+    antiquewhite;
+    padding: 20px;
+}
+
+h1{ 
+    background-color: white;
+    padding:30px;
+    margin:30px;
+    border:1px solid black;
+  }
+
+  .green{margin-left: 590px;border:0;padding:5px}
+
+h2{padding:30px}
+h2,p{margin:25px} 
+
+h3,ol{margin-left:600px;}
+
+.class{width: 25px; height: 25px;}
+
+p{background-color: aquamarine;
+    font-size:larger ; padding:30px; line-height: 2.5rem;}
+.thankyou,h2{background-color: aliceblue;}
+
+
+img,video{
+    max-width:100%;
+    height:auto;
+}
+
+/*background image*/
+body{
+    background-image: url("images/page2.png");
+    background-size:contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.no-bg{
+    background-image: none;
+}
+
+/*shipping images colums*/
+.fuji{ border: 3px solid white; background-color:white ;}
+.mangosteen{ border: 3px solid white;background-color: white;}
+.lychee{border: 3px solid white;background-color: white;}
+.rambutan{border: 3px solid white;background-color: white;}
+.kiwano{border: 3px solid white;background-color: white;}
+.fruit{border: 3px solid white;background-color: white;}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr) ) ; */
+    gap: 20px;
+}
